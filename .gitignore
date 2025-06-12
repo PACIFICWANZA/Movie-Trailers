@@ -1,0 +1,53 @@
+# General Files and Directories to Ignore
+*.log
+*.aux
+*.pdf
+.gitconfig
+
+# Target Directory (Maven build artifacts)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Visual Studio Code ###
+.vscode/
+
+### Environment Variables ###
+.env
+
+# Other IDE caches
+.cache/
+.config/
+
+# Ignore Downloads folder
+Downloads/
+
+# Ignore IDE and system-specific files
+.idea/
+
